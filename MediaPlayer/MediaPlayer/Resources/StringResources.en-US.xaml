@@ -1,0 +1,54 @@
+﻿<ResourceDictionary 
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+     xmlns:system="clr-namespace:System;assembly=mscorlib">
+
+    <!-- Main Window -->
+    <system:String x:Key="soittolistat">Playlist</system:String>
+    <system:String x:Key="tallenna">_Save</system:String>
+    <system:String x:Key="uusiSoittolista">_New Playlist</system:String>
+    <system:String x:Key="lisaaKappale">_Add Song</system:String>
+    <system:String x:Key="poistaLista">_Delete Playlist</system:String>
+    <system:String x:Key="poistaKappale">_Remove Song</system:String>
+    <system:String x:Key="sulje">_Close</system:String>
+    <system:String x:Key="tiedot">_About</system:String>
+    <system:String x:Key="musiikki">_Music</system:String>
+    <system:String x:Key="peli">_Game</system:String>
+    <system:String x:Key="ohjeetNappula">Rules</system:String>
+    <system:String x:Key="tiedosto">_File</system:String>
+    <system:String x:Key="muokkaa">_Edit</system:String>
+    <system:String x:Key="valinta">Choose playlist</system:String>
+    <system:String x:Key="aloitaPeli">Start Game</system:String>
+    <system:String x:Key="vaaraLista">Choose a playlist with atleast 4 songs</system:String>
+    <system:String x:Key="ohjeet">Recognize song and answer as fast as you can. Fast answer brings more points. Wrong ones gives minus. 10 questions</system:String>
+    <system:String x:Key="sait">You got</system:String>
+    <system:String x:Key="pistetta">points</system:String>
+    <system:String x:Key="about">_About</system:String>
+    <system:String x:Key="tekija">Author</system:String>
+    <system:String x:Key="versio">Versio</system:String>
+    <system:String x:Key="paivamaara">Date</system:String>
+    <system:String x:Key="ohjelma">Name</system:String>
+    <system:String x:Key="toista">Play</system:String>
+    <system:String x:Key="help">_Help</system:String>
+    <system:String x:Key="kieli">readme</system:String>
+    <system:String x:Key="eiToimi">Couldn't find any saved playlists</system:String>
+    
+    <!-- Music Player -->
+    <system:String x:Key="tahti">Rate</system:String>
+    <system:String x:Key="aani">Volume</system:String>
+    <system:String x:Key="leikkaa">Cut</system:String>
+    <system:String x:Key="leikkausMod">CutMod</system:String>
+    <system:String x:Key="valiStop">Stop</system:String>
+    <system:String x:Key="soitaVali">Play</system:String>
+    <system:String x:Key="soittoMod">PlayMod</system:String>
+    <system:String x:Key="siirraLoppua">Move End</system:String>
+    <system:String x:Key="siirraLoppu">Set End</system:String>
+    <system:String x:Key="siirraAlkua">Move Start</system:String>
+    <system:String x:Key="siirraAlku">Set Start</system:String>
+    <system:String x:Key="play">Play</system:String>
+    <system:String x:Key="pause">Pause</system:String>
+    <system:String x:Key="edellinen">Previous</system:String>
+    <system:String x:Key="seuraava">Next</system:String>
+    <system:String x:Key="sekoitus">Shuffle</system:String>
+    <system:String x:Key="toisto">Repeat</system:String>
+</ResourceDictionary>

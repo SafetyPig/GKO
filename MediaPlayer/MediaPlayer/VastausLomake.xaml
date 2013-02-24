@@ -1,0 +1,31 @@
+﻿<UserControl x:Class="MediaPlayer.VastausLomake"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             x:Name="vastauslomake"
+             d:DesignHeight="300" d:DesignWidth="300">
+    <Grid>
+        <StackPanel>         
+            <GroupBox HorizontalAlignment="Stretch"  Name="groupBox1" VerticalAlignment="Stretch" Width="auto" Margin="0,0,0,20" HorizontalContentAlignment="Center">
+                <Grid Margin="20,20,20,20" HorizontalAlignment="Center">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <RadioButton Content="Kappale1" Height="16" HorizontalAlignment="Left" Grid.Column="0" Grid.Row="0"  Name="radioButtonKappale1" Margin="10,10,30,10" Checked="radio1_Checked"/>
+                    <RadioButton Content="Kappale2" Height="16" HorizontalAlignment="Left" Grid.Column="1" Grid.Row="0"  Name="radioButtonKappale2" Margin="30,10,10,10" Checked="radio2_Checked"/>
+                    <RadioButton Content="Kappale3" Height="16" HorizontalAlignment="Left" Grid.Column="0" Grid.Row="1"  Name="radioButtonKappale3" Margin="10,10,30,10" Checked="radio3_Checked"/>
+                    <RadioButton Content="Kappale4" Height="16" HorizontalAlignment="Left" Grid.Column="1" Grid.Row="1"  Name="radioButtonKappale4" Margin="30,10,10,10" Checked="radio4_Checked"/>
+                </Grid>
+            </GroupBox>
+            <Button Content="Vastaa" Height="23" Name="buttonVastaa" Width="75" Margin="0,0,0,20" Click="buttonVastaa_Click" />
+            <ProgressBar Value="{Binding ElementName=vastauslomake, Path=Vastausaika,Mode=OneWay,UpdateSourceTrigger=PropertyChanged}" Height="40" HorizontalAlignment="Stretch" Name="progressBarAika" Minimum="0" Maximum="10" />           
+        </StackPanel>
+    </Grid>
+</UserControl>

@@ -1,0 +1,57 @@
+﻿<ResourceDictionary 
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+     xmlns:system="clr-namespace:System;assembly=mscorlib">
+
+    <!-- Main Window -->
+    <system:String x:Key="soittolistat">Soittolistat</system:String>
+    <system:String x:Key="tallenna">Ta_llenna</system:String>
+    <system:String x:Key="uusiSoittolista">_Uusi Soittolista</system:String>
+    <system:String x:Key="lisaaKappale">_Lisää Kappale</system:String>
+    <system:String x:Key="poistaLista">_Poista Lista</system:String>
+    <system:String x:Key="poistaKappale">Poista _Kappale</system:String>
+    <system:String x:Key="sulje">_Sulje</system:String>
+    <system:String x:Key="tiedot">T_iedot</system:String>
+    <system:String x:Key="musiikki">_Musiikki</system:String>
+    <system:String x:Key="peli">_Peli</system:String>
+    <system:String x:Key="ohjeetNappula">_Ohjeet</system:String>
+    <system:String x:Key="tiedosto">_Tiedosto</system:String>
+    <system:String x:Key="muokkaa">_Muokkaa</system:String>
+    <system:String x:Key="eiLoydy">Tallennettuja soittoluetteloita ei löydetty</system:String>
+    <system:String x:Key="valinta">Valitse käytettävä soittoluettelo</system:String>
+    <system:String x:Key="aloitaPeli">Aloita Peli</system:String>
+    <system:String x:Key="vaaraLista">Valitse lista, jossa on vähintään 4 kappaletta</system:String>
+    <system:String x:Key="ohjeet">Tunnista kappale ja vastaa mahdollisimman nopeasti. Mitä nopeampi vastaus, sitä enemmän pisteitä. Vääristä miinusta. 10 Kysymystä</system:String>
+    <system:String x:Key="sait">Sait</system:String>
+    <system:String x:Key="pistetta">pistettä</system:String>
+    <system:String x:Key="about">Ti_edot</system:String>
+    <system:String x:Key="tekija">Tiedot</system:String>
+    <system:String x:Key="versio">Versio</system:String>
+    <system:String x:Key="paivamaara">Päivämärä</system:String>
+    <system:String x:Key="ohjelma">Nimi</system:String>
+    <system:String x:Key="toista">Toista</system:String>
+    <system:String x:Key="help">A_vustus</system:String>
+    <system:String x:Key="kieli">lueminut</system:String>
+    <system:String x:Key="eiToimi">Ei löydetty yhtään tallennettua soittoluetteloa</system:String>
+    
+    <!-- Music Player -->
+    <system:String x:Key="tahti">Tahti</system:String>
+    <system:String x:Key="aani">Äänenvoimakkuus</system:String>
+    <system:String x:Key="leikkaa">Lei_kkaa</system:String>
+    <system:String x:Key="leikkausMod">Leikkaus</system:String>
+    <system:String x:Key="valiStop">Pysayta</system:String>
+    <system:String x:Key="soitaVali">Play</system:String>
+    <system:String x:Key="soittoMod">Soitto</system:String>
+    <system:String x:Key="siirraLoppua">Siirrä Loppua</system:String>
+    <system:String x:Key="siirraLoppu">Siirrä Loppu</system:String>
+    <system:String x:Key="siirraAlkua">Siirrä Alkua</system:String>
+    <system:String x:Key="siirraAlku">Siirra Alku</system:String>
+    <system:String x:Key="play">Soita</system:String>
+    <system:String x:Key="pause">Pysayta</system:String>
+    <system:String x:Key="edellinen">Edellinen</system:String>
+    <system:String x:Key="seuraava">Seuraava</system:String>
+    <system:String x:Key="sekoitus">Sekoitus</system:String>
+    <system:String x:Key="toisto">Toisto</system:String>
+
+
+</ResourceDictionary>

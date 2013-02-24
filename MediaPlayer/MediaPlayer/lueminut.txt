@@ -1,0 +1,22 @@
+==== MEDIAPLAYER ====
+
+Ohjelmassa on kaksi sivua. Musiikki sekä peli.
+
+Musiikki puoli pystyy soittamaan musiikkitiedostoja.
+Ohjelman toimintaperiaate on se, että käyttäjä
+luo haluamansa soittolistan ja voi sitten soittaa
+sitä.
+
+Ohjelmalla pystyy myös leikkaamaan mp3 muodossa
+olevia tiedostoja. Vaihtamalla leikkausmodin
+päälle, ja valitsemalla leikkaa, ohjelma leikkaa
+sliderin täppien välisen alueen ja tallentaa
+sen muistiin haluttuun paikkaan.
+
+Pelissä pelaaja valitsee haluamansa
+soittolistan, sekä painaa sen jälkeen pelaa.
+Ohjelma alkaa soittamaan musiikkia, jonka pelaajan
+tulee tunnistaa ja vastata tunnistamansa biisi
+mahdollisimman nopeasti. Mitä nopeammin
+pelaaja vastaa, sitä enemmän hän
+saa pisteitä.
